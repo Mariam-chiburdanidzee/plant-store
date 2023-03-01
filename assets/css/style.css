@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Helvetica Neue, sans-serif;
+    src: url(../fonts/Helvetica\ Neue\ Regular.otf);
+}
+
+@font-face {
+    font-family: Helvetica Neue, sans-serif;
+    src: url(../fonts/Helvetica\ Neue\ Condensed\ Bold.ttf);
+}
+
+:root {
+    --size-24: 24px;
+    --size-28: 28px;
+    --size-20: 20px;
+    --size-18: 18px;
+    --line-height-22: 22px;
+    --line-height-18: 18px;
+}
+
+.container {
+    max-width: 1290px;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 0px 55px;
+    position:absolute;
+    border-bottom: 1px solid black;
+   
+}
+
+.header-nav ul,
+.header-social-icons ul {
+    display: flex;
+    gap: 40px;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: black;
+    font-size: var(--size-18);
+    line-height: var(--line-height-22);
+    text-transform: capitalize;
+    font-family: Helvetica Neue, sans-serif;
+    font-weight: 500px;
+
+}
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.header-bottom-tree{
+    position: relative;
+    top: 75px;
+    left: 25px;
+}
+
+.header-bottom-title {
+   
+    left: 50%;
+    top: 25%;
+}
+
+.header-social-media {
+    left: 85%;
+    text-align: center;
+    top: 58%;
+
+}
+
+.header-social-media li:nth-child(2) {
+    padding: 15px;
+}
+
+.header-bottom-buttons {
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.header-bottom-buttons button:nth-child(2) {
+    margin-left: 25px;
+}
+
+.header-bottom-title h1 {
+    font-size: 44px;
+    line-height: 53px;
+    font-family: Helvetica Neue, sans-serif;
+    font-weight: 700;
+    width: 472px;
+}
+
+.header-bottom-title p {
+    font-size: var(--size-20);
+    line-height: 30px;
+    font-family: Helvetica Neue, sans-serif;
+    width: 400px;
+}
+
+.header-bottom-buttons button {
+    border: 2px solid #01601B;
+    border-radius: 10px;
+    background-color: #01601B;
+    color: white;
+    padding: 15px 61px;
+    cursor: pointer;
+}
+
+.plant-card-bottom{
+    background-color: rgba(54, 121, 79, 0.55);
+    color: white;
+}
