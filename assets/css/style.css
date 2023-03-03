@@ -373,16 +373,17 @@ footer {
 
 .contact-wrapper-main-image {
     position: relative;
+    width: 100%;
 }
 
 .contact-card {
     background: #01601B80;
     border: solid #01601B80;
     position: absolute;
-    height: 1036px;
-    width: 1402px;
-    top: 56%;
-    left: 17px;
+    height: 987px;
+    width: 1332px;
+    top: 52%;
+    left: 8px;
 }
 
 .contact-card h1 {
