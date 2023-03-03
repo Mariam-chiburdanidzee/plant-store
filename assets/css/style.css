@@ -381,9 +381,9 @@ footer {
     border: solid #01601B80;
     position: absolute;
     height: 987px;
-    width: 1332px;
+    width: 90%;
     top: 52%;
-    left: 8px;
+    left: 90px;
 }
 
 .contact-card h1 {
