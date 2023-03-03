@@ -35,9 +35,6 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 55px 0px 55px;
-    /* position: absolute;
-    border-bottom: 1px solid black; */
-
 }
 
 .header-nav ul,
@@ -54,7 +51,6 @@ header {
     text-transform: capitalize;
     font-family: Helvetica Neue, sans-serif;
     font-weight: 500px;
-
 }
 
 .header-bottom {
@@ -80,7 +76,6 @@ header {
     text-align: center;
     top: 60%;
     position: absolute;
-
 }
 
 .header-social-media li:nth-child(2) {
@@ -231,8 +226,12 @@ h3 {
 .plants-care-wrapper {
     display: flex;
     justify-content: space-around;
-    gap: 16px;
+    gap: 25px;
     margin: 29px 0 29px;
+}
+
+.Plant-Accessories-wrapper {
+    /* margin: 105px 0 195px; */
 }
 
 .plant-accessories-card-information h5 {
@@ -241,7 +240,8 @@ h3 {
     font-family: Helvetica Neue, sans-serif;
     font-weight: var(--font-weight-medium);
 }
-.plant-accessories-card-information{
+
+.plant-accessories-card-information {
     position: absolute;
     left: 50%;
     display: flex;
@@ -254,7 +254,7 @@ h3 {
     background-color: #ECF1EE;
     border-radius: 16px;
     width: 744px;
-    }
+}
 
 .plant-accessories-card-title p {
     font-size: var(--size-20);
@@ -264,10 +264,212 @@ h3 {
     padding: 91px 154px 92px 108px;
     background-color: #ECF1EE;
 }
-.plant-accessories-card-title .title-bottom{
+
+.plant-accessories-card-title .title-bottom {
     padding: 12px 133px 172px 108px;
 }
-.plant-accessories-card{
+
+.plant-accessories-card {
     display: flex;
     position: relative;
+    margin: 105px 0px 195px;
+}
+
+footer {
+    background-color: #255338;
+}
+
+.footer-top {
+    display: flex;
+    padding-top: 37px;
+}
+
+.footer-right-information {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* justify-items: center; */
+
+}
+
+.footer-right-information ul {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-top: 17px;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    gap: 97px;
+}
+
+.footer-logo p {
+    color: white;
+    font-size: var(--size-18);
+    line-height: var(--line-height-22);
+    font-family: Helvetica Neue, sans-serif;
+    font-weight: 600;
+
+}
+
+.footer-input {
+    background-color: #255338;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px 123px 15px 15px;
+}
+
+.footer-email {
+    position: relative;
+    margin: 21px 0 55px;
+}
+
+.footer-email img {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+}
+
+.footer-social-icons {
+    color: white;
+    display: flex;
+    gap: 25px;
+    padding-bottom: 33px;
+    align-items: center;
+}
+
+.footer-top h6 {
+    font-size: var(--size-18);
+    line-height: var(--line-height-22);
+    color: white;
+    font-family: Helvetica Neue, sans-serif;
+    font-weight: var(--fw-bold);
+}
+
+.footer-top a,
+.footer-bottom a {
+    text-decoration: none;
+    color: white;
+    font-size: var(--size-18);
+    line-height: var(--line-height-22);
+    font-family: Helvetica Neue, sans-serif;
+}
+
+.footer-bottom {
+    border-top: 1px solid white;
+
+}
+
+.footer-bottom-right-information {
+    padding: 23px 0 21px;
+}
+
+.footer-bottom-right-information ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.contact-wrapper-main-image {
+    position: relative;
+}
+
+.contact-card {
+    background: #01601B80;
+    border: solid #01601B80;
+    position: absolute;
+    height: 1036px;
+    width: 1402px;
+    top: 56%;
+    left: 17px;
+}
+
+.contact-card h1 {
+    font-size: 30px;
+    line-height: 36px;
+    color: white;
+    font-family: Helvetica Neue, sans-serif;
+    font-weight: var(--fw-bold);
+    text-align: center;
+    padding: 28px 0 114px;
+}
+
+.contact-box ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    padding-top: 50px;
+}
+
+.contact-box-icons-information li {
+    font-size: 26px;
+    line-height: 32px;
+    font-family: Helvetica Neue, sans-serif;
+    font-weight: 600px;
+    color: white;
+}
+
+.form-wrapper input {
+    border-radius: 16px;
+    border: solid #FFFFFF;
+    width: 294px;
+    height: 40px;
+}
+
+.form-wrapper label {
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    font-family: Helvetica Neue, sans-serif;
+    font-weight: 600;
+}
+
+.contact-wrapper{
+    margin-top: 194px;
+    
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.contact-input {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 52px;
+    padding: 163px 0 60px;;
+}
+
+textarea {
+    border-radius: 12px;
+}
+
+.form-textarea {
+    grid-column: 1/3;
+}
+.contact-map-title{
+    font-size: 30px;
+    line-height: 36px;
+    font-family: Helvetica Neue, sans-serif;
+    font-weight: var(--fw-bold);
+    margin: 69px 0 55px;
+    text-align: center;
+}
+.contact-map{
+    text-align: center;
+    border: 1px solid #01601B;
+    padding: 64px 0 83px;
+    width: 1043px;
+    height: 578px;
+}
+iframe{
+    width: 877px;
+}
+
+.contact-map-box{
+    margin-left: 100px;
 }
