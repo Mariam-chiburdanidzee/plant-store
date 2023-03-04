@@ -226,6 +226,7 @@ h3 {
     text-decoration: underline;
     font-family: Helvetica Neue, sans-serif;
     font-weight: var(--font-weight-medium);
+    cursor: pointer;
 }
 
 .plants-care-card img {
